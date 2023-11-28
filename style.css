@@ -32,11 +32,11 @@ body{
 }
 
 header.head{
-    display: flex;
+display: flex;
 flex-flow: row;
 height:100px;
 width: 70%;
-padding: 40px 0px 40px 15px;
+padding: 40px 0px 40px 10px;
 border-bottom: 2px solid lightgrey;
 margin-bottom: 20px;
 
@@ -59,7 +59,7 @@ header a{
         line-height: 200%;
         letter-spacing: 0.1rem;
     }
-    div.movies{
+      div.movies{
         width: 70%;
         line-height: 2em;
         text-align: left;
