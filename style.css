@@ -28,39 +28,57 @@ body{
     padding-top: 30px;
     padding-left: 20px;
     padding-bottom: 60px;
+    letter-spacing:0.05em;
 }
 
-header{
-height:160px;
+header.head{
+    display: flex;
+flex-flow: row;
+height:100px;
 width: 70%;
-padding: 40px;
+padding: 40px 0px 40px 15px;
+border-bottom: 2px solid lightgrey;
+margin-bottom: 20px;
 
 }
+span.menu{
+    padding-right: 180px;
+    /* justify-content: space-between; */
+}
+
 header a{
-    padding-right: 40px;
-    flex-flow: row;
+    margin-left: 10px;
     text-decoration: none;
-}
+    color: black;
+  }
 
-    div.movies{
-        width: 70%;
-        height: auto;
-        text-align: center;
-    }
-    dl{
+  dl{
         cursor:pointer;
         text-align: left;
         padding-left: 20px;
         line-height: 200%;
+        letter-spacing: 0.1rem;
     }
-    span{
-       margin-top: 30px;
-       margin-bottom: 30px;
+    div.movies{
+        width: 70%;
+        line-height: 2em;
+        text-align: left;
     }
+
     hr{
-        color: #181a1c;
-         /* border-bottom: 1px solid grey; */
+        color: black;
+        border: 1px solid black;
         margin: 30px auto;
         height: 3px;
         width: 70%;
     }
+
+    iframe .movies{
+       /* margin-top: 30px;
+       margin-bottom: 30px; */
+    }
+  
+    /* p.movies{
+        text-align: left;
+        margin-top: 60px;
+    } */
